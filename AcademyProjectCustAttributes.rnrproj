@@ -33,9 +33,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Forms" />
-    <Folder Include="DisplayMenuItems" />
-    <Folder Include="LabelFiles" />
-    <Folder Include="MenuExtensions" />
+    <Folder Include="Display Menu Items" />
+    <Folder Include="Label Files" />
+    <Folder Include="Menu Extensions" />
     <Folder Include="Tables" />
   </ItemGroup>
   <ItemGroup>
@@ -49,25 +49,45 @@
       <Name>ACACustomerAttribute</Name>
       <Link>Forms\ACACustomerAttribute</Link>
     </Content>
+    <Content Include="AxForm\ACACustomerGroup">
+      <SubType>Content</SubType>
+      <Name>ACACustomerGroup</Name>
+      <Link>Forms\ACACustomerGroup</Link>
+    </Content>
     <Content Include="AxLabelFile\ACA_en-US">
       <SubType>Content</SubType>
       <Name>ACA_en-US</Name>
-      <Link>LabelFiles\ACA_en-US</Link>
+      <Link>Label Files\ACA_en-US</Link>
     </Content>
     <Content Include="AxMenuExtension\AccountsReceivable.AccademyCustomerAttribute">
       <SubType>Content</SubType>
       <Name>AccountsReceivable.AccademyCustomerAttribute</Name>
-      <Link>MenuExtensions\AccountsReceivable.AccademyCustomerAttribute</Link>
+      <Link>Menu Extensions\AccountsReceivable.AccademyCustomerAttribute</Link>
     </Content>
     <Content Include="AxMenuItemDisplay\ACACustomerAttribute">
       <SubType>Content</SubType>
       <Name>ACACustomerAttribute</Name>
-      <Link>DisplayMenuItems\ACACustomerAttribute</Link>
+      <Link>Display Menu Items\ACACustomerAttribute</Link>
+    </Content>
+    <Content Include="AxMenuItemDisplay\ACACustomerGroup">
+      <SubType>Content</SubType>
+      <Name>ACACustomerGroup</Name>
+      <Link>Display Menu Items\ACACustomerGroup</Link>
     </Content>
     <Content Include="AxTable\ACACustomerAttribute">
       <SubType>Content</SubType>
       <Name>ACACustomerAttribute</Name>
-      <Link>ACACustomerAttribute</Link>
+      <Link>Tables\ACACustomerAttribute</Link>
+    </Content>
+    <Content Include="AxTable\ACACustomerGroup">
+      <SubType>Content</SubType>
+      <Name>ACACustomerGroup</Name>
+      <Link>Tables\ACACustomerGroup</Link>
+    </Content>
+    <Content Include="AxTable\ACACustomerGroupAttribute">
+      <SubType>Content</SubType>
+      <Name>ACACustomerGroupAttribute</Name>
+      <Link>Tables\ACACustomerGroupAttribute</Link>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.Common.targets" />
