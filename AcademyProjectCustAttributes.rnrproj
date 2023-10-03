@@ -54,6 +54,11 @@
       <Name>ACACustomerGroup</Name>
       <Link>Forms\ACACustomerGroup</Link>
     </Content>
+    <Content Include="AxForm\ACACustomerGroupAddRemoveAttribute">
+      <SubType>Content</SubType>
+      <Name>ACACustomerGroupAddRemoveAttribute</Name>
+      <Link>Forms\ACACustomerGroupAddRemoveAttribute</Link>
+    </Content>
     <Content Include="AxLabelFile\ACA_en-US">
       <SubType>Content</SubType>
       <Name>ACA_en-US</Name>
@@ -73,6 +78,11 @@
       <SubType>Content</SubType>
       <Name>ACACustomerGroup</Name>
       <Link>Display Menu Items\ACACustomerGroup</Link>
+    </Content>
+    <Content Include="AxMenuItemDisplay\ACACustomerGroupAddRemoveAttribute">
+      <SubType>Content</SubType>
+      <Name>ACACustomerGroupAddRemoveAttribute</Name>
+      <Link>Display Menu Items\ACACustomerGroupAddRemoveAttribute</Link>
     </Content>
     <Content Include="AxTable\ACACustomerAttribute">
       <SubType>Content</SubType>
