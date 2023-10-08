@@ -49,6 +49,11 @@
       <Name>ACA.en-US.label.txt</Name>
       <DependentUpon>AxLabelFile\ACA_en-US</DependentUpon>
     </Content>
+    <Content Include="AxClass\ACAUpdateCustomerSalesStatisticsContract">
+      <SubType>Content</SubType>
+      <Name>ACAUpdateCustomerSalesStatisticsContract</Name>
+      <Link>Classes\ACAUpdateCustomerSalesStatisticsContract</Link>
+    </Content>
     <Content Include="AxClass\ACAUpdateCustomerSalesStatisticsController">
       <SubType>Content</SubType>
       <Name>ACAUpdateCustomerSalesStatisticsController</Name>
