@@ -40,6 +40,9 @@
     <Folder Include="Display Menu Items" />
     <Folder Include="Label Files" />
     <Folder Include="Menu Extensions" />
+    <Folder Include="Output Menu Items\" />
+    <Folder Include="Reports\" />
+    <Folder Include="Simple Queries\" />
     <Folder Include="Table Extensions\" />
     <Folder Include="Tables" />
   </ItemGroup>
@@ -48,6 +51,16 @@
       <SubType>Content</SubType>
       <Name>ACA.en-US.label.txt</Name>
       <DependentUpon>AxLabelFile\ACA_en-US</DependentUpon>
+    </Content>
+    <Content Include="AxClass\ACAAttributeSalesStatisticsContract">
+      <SubType>Content</SubType>
+      <Name>ACAAttributeSalesStatisticsContract</Name>
+      <Link>Classes\ACAAttributeSalesStatisticsContract</Link>
+    </Content>
+    <Content Include="AxClass\ACAAttributeSalesStatisticsDP">
+      <SubType>Content</SubType>
+      <Name>ACAAttributeSalesStatisticsDP</Name>
+      <Link>Classes\ACAAttributeSalesStatisticsDP</Link>
     </Content>
     <Content Include="AxClass\ACAUpdateCustomerSalesStatisticsContract">
       <SubType>Content</SubType>
@@ -73,6 +86,11 @@
       <SubType>Content</SubType>
       <Name>ACAAttributeGroup</Name>
       <Link>EDT Strings\ACAAttributeGroup</Link>
+    </Content>
+    <Content Include="AxEdt\ACAAttributeName">
+      <SubType>Content</SubType>
+      <Name>ACAAttributeName</Name>
+      <Link>EDT Strings\ACAAttributeName</Link>
     </Content>
     <Content Include="AxEdt\ACAAttributeValue">
       <SubType>Content</SubType>
@@ -159,10 +177,30 @@
       <Name>ACACustomerSalesStatistics</Name>
       <Link>Display Menu Items\ACACustomerSalesStatistics</Link>
     </Content>
+    <Content Include="AxMenuItemOutput\ACAAttributeSalesStatistics">
+      <SubType>Content</SubType>
+      <Name>ACAAttributeSalesStatistics</Name>
+      <Link>Output Menu Items\ACAAttributeSalesStatistics</Link>
+    </Content>
+    <Content Include="AxQuery\ACAAttributeSalesStatisticsQuery">
+      <SubType>Content</SubType>
+      <Name>ACAAttributeSalesStatisticsQuery</Name>
+      <Link>Simple Queries\ACAAttributeSalesStatisticsQuery</Link>
+    </Content>
+    <Content Include="AxReport\ACAAttributeSalesStatistics">
+      <SubType>Content</SubType>
+      <Name>ACAAttributeSalesStatistics</Name>
+      <Link>Reports\ACAAttributeSalesStatistics</Link>
+    </Content>
     <Content Include="AxTableExtension\CustTable.AccademyCustomerAttribute">
       <SubType>Content</SubType>
       <Name>CustTable.AccademyCustomerAttribute</Name>
       <Link>Table Extensions\CustTable.AccademyCustomerAttribute</Link>
+    </Content>
+    <Content Include="AxTable\ACAAttributeSalesStatisticsTmp">
+      <SubType>Content</SubType>
+      <Name>ACAAttributeSalesStatisticsTmp</Name>
+      <Link>Tables\ACAAttributeSalesStatisticsTmp</Link>
     </Content>
     <Content Include="AxTable\ACACustomerAttribute">
       <SubType>Content</SubType>
