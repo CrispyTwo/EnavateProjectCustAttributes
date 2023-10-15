@@ -42,6 +42,9 @@
     <Folder Include="Menu Extensions" />
     <Folder Include="Output Menu Items\" />
     <Folder Include="Reports\" />
+    <Folder Include="Security Duty Extensions\" />
+    <Folder Include="Security Privileges\" />
+    <Folder Include="Security Role Extensions\" />
     <Folder Include="Simple Queries\" />
     <Folder Include="Table Extensions\" />
     <Folder Include="Tables" />
@@ -191,6 +194,31 @@
       <SubType>Content</SubType>
       <Name>ACAAttributeSalesStatistics</Name>
       <Link>Reports\ACAAttributeSalesStatistics</Link>
+    </Content>
+    <Content Include="AxSecurityDutyExtension\CustCustomersMaintain.AccademyCustomerAttribute">
+      <SubType>Content</SubType>
+      <Name>CustCustomersMaintain.AccademyCustomerAttribute</Name>
+      <Link>Security Duty Extensions\CustCustomersMaintain.AccademyCustomerAttribute</Link>
+    </Content>
+    <Content Include="AxSecurityPrivilege\ACAAttributeStatisticsMaintain">
+      <SubType>Content</SubType>
+      <Name>ACAAttributeStatisticsMaintain</Name>
+      <Link>Security Privileges\ACAAttributeStatisticsMaintain</Link>
+    </Content>
+    <Content Include="AxSecurityPrivilege\ACACustomerAttributeMaintain">
+      <SubType>Content</SubType>
+      <Name>ACACustomerAttributeMaintain</Name>
+      <Link>Security Privileges\ACACustomerAttributeMaintain</Link>
+    </Content>
+    <Content Include="AxSecurityPrivilege\ACACustomerAttributeView">
+      <SubType>Content</SubType>
+      <Name>ACACustomerAttributeView</Name>
+      <Link>Security Privileges\ACACustomerAttributeView</Link>
+    </Content>
+    <Content Include="AxSecurityRoleExtension\TradeSalesClerk.AccademyCustomerAttribute">
+      <SubType>Content</SubType>
+      <Name>TradeSalesClerk.AccademyCustomerAttribute</Name>
+      <Link>Security Role Extensions\TradeSalesClerk.AccademyCustomerAttribute</Link>
     </Content>
     <Content Include="AxTableExtension\CustTable.AccademyCustomerAttribute">
       <SubType>Content</SubType>
