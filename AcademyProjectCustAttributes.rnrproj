@@ -34,6 +34,7 @@
   <ItemGroup>
     <Folder Include="Action Menu Items\" />
     <Folder Include="Classes\" />
+    <Folder Include="Data Entities\" />
     <Folder Include="EDT Strings\" />
     <Folder Include="Form Extensions\" />
     <Folder Include="Forms" />
@@ -80,10 +81,20 @@
       <Name>ACAUpdateCustomerSalesStatisticsService</Name>
       <Link>Classes\ACAUpdateCustomerSalesStatisticsService</Link>
     </Content>
+    <Content Include="AxClass\AttributeGroupOperations">
+      <SubType>Content</SubType>
+      <Name>AttributeGroupOperations</Name>
+      <Link>Classes\AttributeGroupOperations</Link>
+    </Content>
     <Content Include="AxClass\CustTable_ACAEventHandler">
       <SubType>Content</SubType>
       <Name>CustTable_ACAEventHandler</Name>
       <Link>Classes\CustTable_ACAEventHandler</Link>
+    </Content>
+    <Content Include="AxDataEntityView\ACACustomerAttributeValueEntity">
+      <SubType>Content</SubType>
+      <Name>ACACustomerAttributeValueEntity</Name>
+      <Link>Data Entities\ACACustomerAttributeValueEntity</Link>
     </Content>
     <Content Include="AxEdt\ACAAttributeGroup">
       <SubType>Content</SubType>
@@ -210,6 +221,16 @@
       <Name>ACACustomerAttributeMaintain</Name>
       <Link>Security Privileges\ACACustomerAttributeMaintain</Link>
     </Content>
+    <Content Include="AxSecurityPrivilege\ACACustomerAttributeValueEntityMaintain">
+      <SubType>Content</SubType>
+      <Name>ACACustomerAttributeValueEntityMaintain</Name>
+      <Link>Security Privileges\ACACustomerAttributeValueEntityMaintain</Link>
+    </Content>
+    <Content Include="AxSecurityPrivilege\ACACustomerAttributeValueEntityView">
+      <SubType>Content</SubType>
+      <Name>ACACustomerAttributeValueEntityView</Name>
+      <Link>Security Privileges\ACACustomerAttributeValueEntityView</Link>
+    </Content>
     <Content Include="AxSecurityPrivilege\ACACustomerAttributeView">
       <SubType>Content</SubType>
       <Name>ACACustomerAttributeView</Name>
@@ -239,6 +260,11 @@
       <SubType>Content</SubType>
       <Name>ACACustomerAttributeValue</Name>
       <Link>Tables\ACACustomerAttributeValue</Link>
+    </Content>
+    <Content Include="AxTable\ACACustomerAttributeValueStaging">
+      <SubType>Content</SubType>
+      <Name>ACACustomerAttributeValueStaging</Name>
+      <Link>Tables\ACACustomerAttributeValueStaging</Link>
     </Content>
     <Content Include="AxTable\ACACustomerGroup">
       <SubType>Content</SubType>
