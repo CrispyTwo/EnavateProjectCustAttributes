@@ -49,12 +49,18 @@
     <Folder Include="Simple Queries\" />
     <Folder Include="Table Extensions\" />
     <Folder Include="Tables" />
+    <Folder Include="Tiles\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="ACA.en-US.label.txt">
       <SubType>Content</SubType>
       <Name>ACA.en-US.label.txt</Name>
       <DependentUpon>AxLabelFile\ACA_en-US</DependentUpon>
+    </Content>
+    <Content Include="AxClass\ACAAttributeGroupOperations">
+      <SubType>Content</SubType>
+      <Name>ACAAttributeGroupOperations</Name>
+      <Link>Classes\ACAAttributeGroupOperations</Link>
     </Content>
     <Content Include="AxClass\ACAAttributeSalesStatisticsContract">
       <SubType>Content</SubType>
@@ -80,11 +86,6 @@
       <SubType>Content</SubType>
       <Name>ACAUpdateCustomerSalesStatisticsService</Name>
       <Link>Classes\ACAUpdateCustomerSalesStatisticsService</Link>
-    </Content>
-    <Content Include="AxClass\AttributeGroupOperations">
-      <SubType>Content</SubType>
-      <Name>AttributeGroupOperations</Name>
-      <Link>Classes\AttributeGroupOperations</Link>
     </Content>
     <Content Include="AxClass\CustTable_ACAEventHandler">
       <SubType>Content</SubType>
@@ -126,10 +127,20 @@
       <Name>ACACustomerAttribute</Name>
       <Link>Forms\ACACustomerAttribute</Link>
     </Content>
+    <Content Include="AxForm\ACACustomerAttributeFormPart">
+      <SubType>Content</SubType>
+      <Name>ACACustomerAttributeFormPart</Name>
+      <Link>Forms\ACACustomerAttributeFormPart</Link>
+    </Content>
     <Content Include="AxForm\ACACustomerAttributeValue">
       <SubType>Content</SubType>
       <Name>ACACustomerAttributeValue</Name>
       <Link>Forms\ACACustomerAttributeValue</Link>
+    </Content>
+    <Content Include="AxForm\ACACustomerAttributeWorkSpace">
+      <SubType>Content</SubType>
+      <Name>ACACustomerAttributeWorkSpace</Name>
+      <Link>Forms\ACACustomerAttributeWorkSpace</Link>
     </Content>
     <Content Include="AxForm\ACACustomerGroup">
       <SubType>Content</SubType>
@@ -156,6 +167,11 @@
       <Name>AccountsReceivable.AccademyCustomerAttribute</Name>
       <Link>Menu Extensions\AccountsReceivable.AccademyCustomerAttribute</Link>
     </Content>
+    <Content Include="AxMenuExtension\navpanemenu.AccademyCustomerAttribute">
+      <SubType>Content</SubType>
+      <Name>navpanemenu.AccademyCustomerAttribute</Name>
+      <Link>Menu Extensions\navpanemenu.AccademyCustomerAttribute</Link>
+    </Content>
     <Content Include="AxMenuItemAction\ACAUpdateCustomerSalesStatistics">
       <SubType>Content</SubType>
       <Name>ACAUpdateCustomerSalesStatistics</Name>
@@ -171,10 +187,20 @@
       <Name>ACACustomerAttribute</Name>
       <Link>Display Menu Items\ACACustomerAttribute</Link>
     </Content>
+    <Content Include="AxMenuItemDisplay\ACACustomerAttributeFormPart">
+      <SubType>Content</SubType>
+      <Name>ACACustomerAttributeFormPart</Name>
+      <Link>Display Menu Items\ACACustomerAttributeFormPart</Link>
+    </Content>
     <Content Include="AxMenuItemDisplay\ACACustomerAttributeValue">
       <SubType>Content</SubType>
       <Name>ACACustomerAttributeValue</Name>
       <Link>Display Menu Items\ACACustomerAttributeValue</Link>
+    </Content>
+    <Content Include="AxMenuItemDisplay\ACACustomerAttributeWorkspace">
+      <SubType>Content</SubType>
+      <Name>ACACustomerAttributeWorkspace</Name>
+      <Link>Display Menu Items\ACACustomerAttributeWorkspace</Link>
     </Content>
     <Content Include="AxMenuItemDisplay\ACACustomerGroup">
       <SubType>Content</SubType>
@@ -280,6 +306,16 @@
       <SubType>Content</SubType>
       <Name>ACACustomerSalesStatistics</Name>
       <Link>Tables\ACACustomerSalesStatistics</Link>
+    </Content>
+    <Content Include="AxTile\ACACustomerAttributeWorkspaceTile">
+      <SubType>Content</SubType>
+      <Name>ACACustomerAttributeWorkspaceTile</Name>
+      <Link>Tiles\ACACustomerAttributeWorkspaceTile</Link>
+    </Content>
+    <Content Include="AxTile\ACAUpdateCustomerSalesStatisticsTile">
+      <SubType>Content</SubType>
+      <Name>ACAUpdateCustomerSalesStatisticsTile</Name>
+      <Link>Tiles\ACAUpdateCustomerSalesStatisticsTile</Link>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.Common.targets" />
